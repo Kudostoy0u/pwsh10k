@@ -1,6 +1,8 @@
-# An Oh-My-Posh theme for those who want Powerlevel10k theme on Powershell
+# An Oh-My-Posh theme for those who want Powerlevel10k theme on Powershell that doesn't look like this
 
-## Preview
+![I don't like it](https://i.ibb.co/0qjrZ2t/fake.png)
+
+## But instead, looks like this
 
 ![Pwsh10k preview](https://i.ibb.co/DGGY219/pwsh10k.png)
 
