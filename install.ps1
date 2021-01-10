@@ -1,0 +1,1 @@
+# C:\Users\kudos\Documents\PowerShell\Modules\oh-my-posh\2.0.492\Themes\powerlevel.psm1
