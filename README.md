@@ -1,11 +1,7 @@
-# An Oh-My-Posh theme for those who want Powerlevel10k theme on Powershell that doesn't look like this
-
-![I don't like it](https://i.ibb.co/ykGQkk2/fake.png)
-
-## But instead, looks like this
+# Pwsh10k - Oh-my-posh theme for a really nice looking prompt that resembled Powerlevel10k
 
 ![Pwsh10k preview](https://i.ibb.co/DGGY219/pwsh10k.png)
-
+Preview
 ## Prerequisites
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
