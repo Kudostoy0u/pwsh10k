@@ -1,6 +1,6 @@
 # An Oh-My-Posh theme for those who want Powerlevel10k theme on Powershell that doesn't look like this
 
-![I don't like it](https://i.ibb.co/0qjrZ2t/fake.png)
+![I don't like it](https://i.ibb.co/ykGQkk2/fake.png)
 
 ## But instead, looks like this
 
