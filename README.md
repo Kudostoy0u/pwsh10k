@@ -8,7 +8,9 @@
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
 
-2. Download the MesloLGS NF font:
+2. Update to Powershell core 7 if not already ([Update!](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.1))
+
+3. Download the MesloLGS NF font:
 Download these four ttf files:
 
 * [MesloLGS NF Regular.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)
@@ -22,13 +24,13 @@ Download these four ttf files:
 Double-click on each file and press "Install". This will make MesloLGS NF font available to all applications on your system. Configure your Windows Terminal to use this font:
 Open Settings  `(Ctrl+,)`, search for fontFace and set value to MesloLGS NF for every profile.
 
-3. Run `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
+4. Run `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
 
-4. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
+5. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
 
-5. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
+6. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
 
-6. Add these lines: 
+7. Add these lines: 
 
 ```powershell
 Import-Module posh-git
