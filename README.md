@@ -29,28 +29,19 @@ Download these four ttf files:
 Double-click on each file and press "Install". This will make MesloLGS NF font available to all applications on your system. Configure your Windows Terminal to use this font:
 Open Settings  `(Ctrl+,)`, search for fontFace and set value to MesloLGS NF for every profile.
 
-4. Run `Install-Module posh-git -Scope CurrentUser`
+4. Run `Install-Module posh-git -Scope CurrentUser`, `Install-Module oh-my-posh -Scope CurrentUser`, and `Update-Module -Name oh-my-posh -AllowPrerelease -Scope CurrentUser`
 
-5. Install oh-my-posh with this link: https://drive.google.com/uc?export=download&id=1AdDIAgwUtPn7D-V3KccJywyC9tHAcGyw
+5. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
 
-6. Get the path of the folder where it installed
+6. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
 
-7. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
-
-8. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
-
-9. Add these lines: 
+7. Add these lines: 
 
 ```powershell
-function oh-my-posh {
-    <PATH>\posh-windows-amd64-experimental-fork.exe $($args)
-}
 Import-Module posh-git
-Invoke-Expression (oh-my-posh --init --shell pwsh --config ~/pwsh10k.omp.json)
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
-
-Substitute \<PATH\> with the path of the installed folder
-
 ## Installation steps
 
 1. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
