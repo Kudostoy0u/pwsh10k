@@ -13,7 +13,7 @@ Preview
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
 
-2. Update to Powershell core 7 if not already ([Update!](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.1))
+2. (Optional but recommended) Update to Powershell core 7 if not already ([Update!](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.1))
 
 3. Download the MesloLGS NF font:
 Download these four ttf files:
