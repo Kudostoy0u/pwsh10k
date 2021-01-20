@@ -50,7 +50,7 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 
 3. Run `.\install.ps1`
 
-4. Restart terminal and you should see a great terminal!
+4. Restart terminal and you should see a pretty prompt!
 
 ## Use the correct font for VScode integrated terminal
 
