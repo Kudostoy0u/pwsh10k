@@ -1,6 +1,6 @@
 # Pwsh10k - Oh-my-posh theme for my favorite configuration of Powerlevel10k
+![PWSH10k PREVIEW](https://storage.googleapis.com/replit/images/1612640247356_32bc32bef8fece01d93f1565b52abf53.png)
 
-![Pwsh10k preview](https://user-images.githubusercontent.com/69732000/104954070-3a66ab80-598d-11eb-9d6a-cd6ff6a36b0c.png)
 Preview
 
 * I would like to note that this is for Windows, anyone on Unix who wants this just create a pull request asking.
