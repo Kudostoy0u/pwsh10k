@@ -7,12 +7,7 @@ Preview
 ![badge](https://img.shields.io/github/issues/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/forks/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/stars/Kudostoy0u/pwsh10k)<space><space>
-* I would like to note that this is for Windows, anyone on Unix who wants this just create a pull request asking.
-
-* This is Oh-my-posh version 3 beta
-
-* There's a bug for Oh-My-Posh: Working in git repositories can be a little laggy
-
+ 
 ## Prerequisites
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
