@@ -1,12 +1,11 @@
 # Pwsh10k - Oh-my-posh theme for my favorite configuration of Powerlevel10k
+
+
+![PWSH10k PREVIEW](https://storage.googleapis.com/replit/images/1612640247356_32bc32bef8fece01d93f1565b52abf53.png)<space><space>
+Preview
 ![badge](https://img.shields.io/github/issues/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/forks/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/stars/Kudostoy0u/pwsh10k)<space><space>
-<br>
-![PWSH10k PREVIEW](https://storage.googleapis.com/replit/images/1612640247356_32bc32bef8fece01d93f1565b52abf53.png)<space><space>
-
-Preview
-
 * I would like to note that this is for Windows, anyone on Unix who wants this just create a pull request asking.
 
 * This is Oh-my-posh version 3 beta
