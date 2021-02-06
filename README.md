@@ -3,6 +3,7 @@
 
 ![PWSH10k PREVIEW](https://storage.googleapis.com/replit/images/1612640247356_32bc32bef8fece01d93f1565b52abf53.png)<space><space>
 Preview
+ 
 ![badge](https://img.shields.io/github/issues/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/forks/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/stars/Kudostoy0u/pwsh10k)<space><space>
