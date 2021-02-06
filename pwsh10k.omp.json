@@ -1,234 +1,250 @@
 {
-    "final_space": true,
-    "console_title": true,
-    "console_title_style": "template",
-    "console_title_template": "{{if .Root}}root :: {{end}}{{.Shell}} :: {{.Folder}}",
-    "blocks": [
+        "final_space": true,
+        "console_title": true,
+        "console_title_style": "template",
+        "console_title_template": "{{if .Root}}root :: {{end}}{{.Shell}} :: {{.Folder}}",
+        "blocks": [
                 {
-                    "type": "rprompt",
-                    "alignment": "right",
-                    "horizontal_offset": 0,
-                    "vertical_offset":0,
-                    "segments": [
-                        {
-                            "type": "text",
-                            "style": "diamond",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#fafafa",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "\uE0BA",
-                            "trailing_diamond": "",
-                            "properties": {
-                                "postfix": "",
-                                "prefix": "",
-                                "text": ""
-                            }
-                        },
-                        {
-                            "type": "node",
+                        "type": "rprompt",
+                        "alignment": "right",
+                        "horizontal_offset": 0,
+                        "vertical_offset":0,
+                        "segments": [
+                                {
+                                        "type": "text",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#fafafa",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "\uE0BA",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "postfix": "",
+                                                "prefix": "",
+                                                "text": ""
+                                        }
+                                },
+                                {
+                                        "type": "exit",
+                                        "style": "diamond",
+                                        "foreground": "#008000",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "display_exit_code": false,
+                                                "always_enabled": true,
+                                                "error_color": "#e91e63",
+                                                "color_background": false,
+                                                "success_icon": "\u2714 ",
+                                                                                                                                    "error_icon": "\u2718 ",
+                                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e"
+                                        }
+                                },
+                                {
+                                        "type": "node",
 
-                            "style": "diamond",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#6CA35E",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "",
-                            "trailing_diamond": "",
-                            "properties": {
-                                "display_version": false,
-                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
-                                "prefix": " \uE718 "
-                            }
-                        },
-                        {
-                            "type": "python",
-                            "style": "diamond",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#e3d236",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "",
-                            "trailing_diamond": "",
-                            "properties": {
-                                "display_version": false,
-                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
-                                "prefix": " \uE235 "
-                            }
-                        },
-                        {
-                            "type": "go",
-                            "style": "powerline",
-                            "powerline_symbol": "",
-                            "foreground": "#7FD5EA",
-                            "background": "#2f2f2f",
-                            "properties": {
-                              "display_version": false,
-                              "prefix": "\u0020\uFCD1",
-                              "postfix": "\u003c#ffffff\u003e ╱\u003c/\u003e"
-                            }
-                          },
-                        {
-                            "type": "dotnet",
-                            "style": "diamond",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#3891A6",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "",
-                            "trailing_diamond": "",
-                            "properties": {
-                                "display_version": false,
-                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
-                                "prefix": "  "
-                            }
-                        },
-                        {
-                            "type": "executiontime",
-                            "style": "plain",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#FFCE5C",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "",
-                            "trailing_diamond": "",
-                            "properties": {
-                                "postfix": "\u003c#fafafa\u003e \uF252 ╱\u003c/\u003e",
-                                "style": "roundrock",
-                                "threshold": 500
-                            }
-                        },
-                        {
-                            "type": "battery",
-                            "style": "powerline",
-                            "foreground": "#CCCC00",
-                            "background": "#2f2f2f",
-                            "properties": {
-                              "battery_icon": "",
-                              "discharging_icon": "\uF578 ",
-                              "charging_icon": "\uE234 ",
-                              "charged_icon": "\uE22F ",
-                              "color_background": false,
-                              "charged_color": "#006400",
-                              "charging_color": "#00FF00",
-                              "discharging_color": "#999900",
-                              "postfix": "\u003c#999900\u003e%\u003c/\u003e\u003c#FFFFFF\u003e ╱\u003c/\u003e",
-                              "display_charging": true
-                            }
-                          },
-                        {
-                            "type": "time",
-                            "style": "diamond",
-                            "powerline_symbol": "",
-                            "invert_powerline": false,
-                            "foreground": "#fafafa",
-                            "background": "#2f2f2f",
-                            "leading_diamond": "",
-                            "trailing_diamond": "\uE0BC",
-                            "properties": {
-                                "postfix": "\u003c#007ACC\u003e \uF64F \u003c/\u003e",
-                                "time_format": "15:04:05"
-                            }
-                        }
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#6CA35E",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "display_version": false,
+                                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
+                                                "prefix": " \uE718 "
+                                        }
+                                },
+                                {
+                                        "type": "python",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#e3d236",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "display_version": false,
+                                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
+                                                "prefix": " \uE235 "
+                                        }
+                                },
+                                {
+                                        "type": "go",
+                                        "style": "powerline",
+                                        "powerline_symbol": "",
+                                        "foreground": "#7FD5EA",
+                                        "background": "#2f2f2f",
+                                        "properties": {
+                                                "display_version": false,
+                                                "prefix": "\u0020\uFCD1",
+                                                "postfix": "\u003c#ffffff\u003e ╱\u003c/\u003e"
+                                        }
+                                },
+                                {
+                                        "type": "dotnet",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#3891A6",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "display_version": false,
+                                                "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e",
+                                                "prefix": "  "
+                                        }
+                                },
+                                {
+                                        "type": "executiontime",
+                                        "style": "plain",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#FFCE5C",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "postfix": "\u003c#fafafa\u003e \uF252 ╱\u003c/\u003e",
+                                                "style": "roundrock",
+                                                "threshold": 500
+                                        }
+                                },
+                                {
+                                        "type": "battery",
+                                        "style": "powerline",
+                                        "foreground": "#CCCC00",
+                                        "background": "#2f2f2f",
+                                        "properties": {
+                                                "battery_icon": "",
+                                                "discharging_icon": "\uF578 ",
+                                                "charging_icon": "\uE234 ",
+                                                "charged_icon": "\uE22F ",
+                                                "color_background": false,
+                                                "charged_color": "#006400",
+                                                "charging_color": "#00FF00",
+                                                "discharging_color": "#999900",
+                                                "postfix": "\u003c#999900\u003e%\u003c/\u003e\u003c#FFFFFF\u003e ╱\u003c/\u003e",
+                                                "display_charging": true
+                                        }
+                                },
+                                {
+                                        "type": "time",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#fafafa",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "\uE0BC",
+                                        "properties": {
+                                                "postfix": "\u003c#007ACC\u003e \uF64F \u003c/\u003e",
+                                                "time_format": "15:04:05"
+                                        }
+                                }
 
-            ]
-        },
-        {
-            "type": "prompt",
-            "alignment": "left",
-            "horizontal_offset": 0,
-            "vertical_offset": 0,
-            "segments": [
-                {
-                    "type": "os",
-                    "style": "diamond",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#ffffff",
-                    "background": "#2f2f2f",
-                    "leading_diamond": "\uE0BA",
-                    "trailing_diamond": "",
-                    "properties": {
-                        "alpine": "\uF300",
-                        "arch": "\uF303",
-                        "centos": "\uF304",
-                        "debian": "\uF306",
-                        "elementary": "\uF309",
-                        "fedora": "\uF30A",
-                        "gentoo": "\uF30D",
-                        "linux": "\uE712",
-                        "macos": "\uE711",
-                        "manjaro": "\uF312",
-                        "mint": "\uF30F",
-                        "opensuse": "\uF314",
-                        "postfix": "\u003c#ffffff\u003e ╱\u003c/\u003e",
-                        "raspbian": "\uF315",
-                        "ubuntu": "\uF31C",
-                        "windows": "\uE70F",
-                        "wsl": "\uE712",
-                        "wsl_separator": " on "
-                    }
+                        ]
                 },
                 {
-                    "type": "root",
-                    "style": "diamond",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#ffff66",
-                    "background": "#2f2f2f",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
-                    "properties": {
-                        "postfix": "\u003c#7a7a7a\u003e ╱\u003c/\u003e",
-                        "root_icon": "\uF0E7"
-                    }
-                },
-                
-                {
-                    "type": "path",
-                    "style": "diamond",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#3FA5A6",
-                    "background": "#2f2f2f",
-                    "leading_diamond": "",
-                    "trailing_diamond": "",
-                    "properties": {
-                        "enable_hyperlink": true,   
-                        "home_icon": "\uF015 ~",
-                        "prefix": "\u003c#f2f200\u003e \u003c/\u003e",
-                        "style": "folder"
-                    }
-                },
-                {
-                    "type": "git",
-                    "style": "powerline",
-                    "powerline_symbol": "",
-                    "foreground": "#a3a310",
-                    "background": "#2f2f2f",
-                    "properties": {
-                        "prefix" : "\u003c#ffffff\u003e╱ \u003c/\u003e",
-                      "display_stash_count": true,
-                      "display_upstream_icon": true
-                    }
-                  },
-                {
-                    "type": "text",
-                    "style": "diamond",
-                    "powerline_symbol": "",
-                    "invert_powerline": false,
-                    "foreground": "#fafafa",
-                    "background": "#2f2f2f",
-                    "leading_diamond": "",
-                    "trailing_diamond": "\uE0BC",
-                    "properties": {
-                        "postfix": "",
-                        "prefix": "",
-                        "text": ""
-                    }
+                        "type": "prompt",
+                        "alignment": "left",
+                        "horizontal_offset": 0,
+                        "vertical_offset": 0,
+                        "segments": [
+                                {
+                                        "type": "os",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#ffffff",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "\uE0BA",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "alpine": "\uF300",
+                                                "arch": "\uF303",
+                                                "centos": "\uF304",
+                                                "debian": "\uF306",
+                                                "elementary": "\uF309",
+                                                "fedora": "\uF30A",
+                                                "gentoo": "\uF30D",
+                                                "linux": "\uE712",
+                                                "macos": "\uE711",
+                                                "manjaro": "\uF312",
+                                                "mint": "\uF30F",
+                                                "opensuse": "\uF314",
+                                                "postfix": "\u003c#ffffff\u003e ╱\u003c/\u003e",
+                                                "raspbian": "\uF315",
+                                                "ubuntu": "\uF31C",
+                                                "windows": "\uE70F",
+                                                "wsl": "\uE712",
+                                                "wsl_separator": " on "
+                                        }
+                                },
+                                {
+                                        "type": "root",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#ffff66",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "postfix": "\u003c#7a7a7a\u003e ╱\u003c/\u003e",
+                                                "root_icon": "\uF0E7"
+                                        }
+                                },
+
+                                {
+                                        "type": "path",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#3FA5A6",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "enable_hyperlink": true,
+                                                "home_icon": "\uF015 ~",
+                                                "prefix": "\u003c#f2f200\u003e \u003c/\u003e",
+                                                "style": "folder"
+                                        }
+                                },
+                                {
+                                        "type": "git",
+                                        "style": "powerline",
+                                        "powerline_symbol": "",
+                                        "foreground": "#a3a310",
+                                        "background": "#2f2f2f",
+                                        "properties": {
+                                                "prefix" : "\u003c#ffffff\u003e╱ \u003c/\u003e",
+                                                "display_stash_count": true,
+                                                "display_upstream_icon": true
+                                        }
+                                },
+                                {
+                                        "type": "text",
+                                        "style": "diamond",
+                                        "powerline_symbol": "",
+                                        "invert_powerline": false,
+                                        "foreground": "#fafafa",
+                                        "background": "#2f2f2f",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "\uE0BC",
+                                        "properties": {
+                                                "postfix": "",
+                                                "prefix": "",
+                                                "text": ""
+                                        }
+                                }
+                        ]
                 }
-            ]
-        }
-    ]
+        ]
 }
-
