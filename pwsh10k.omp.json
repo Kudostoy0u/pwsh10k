@@ -123,8 +123,8 @@
                                         "properties": {
                                                 "battery_icon": "",
                                                 "discharging_icon": "\uF578 ",
-                                                "charging_icon": "\uE234 ",
-                                                "charged_icon": "\uE22F ",
+                                                "charging_icon": "\uf583 ",
+                                                "charged_icon": "\uf584 ",
                                                 "color_background": false,
                                                 "charged_color": "#006400",
                                                 "charging_color": "#00FF00",
