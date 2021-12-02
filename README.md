@@ -54,3 +54,9 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ## Use the correct font for VScode integrated terminal
 
 * Visual Studio Code: Open File → Preferences → Settings, enter terminal.integrated.fontFamily in the search box and set the value to MesloLGS NF
+ 
+ ## Customize my theme
+
+Fork the project, edit the `pwsh10k.omp.json` file as you see fit, and run the installation instructions, replacing the link in the first step with your own repo.
+ 
+If you believe there's a bug in the code feel free to make a pull request!
