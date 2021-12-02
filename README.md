@@ -47,7 +47,7 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 
 2. Run `cd pwsh10k`
 
-3. Run `.\install.ps1`
+3. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
 
 4. Restart terminal and you should see a pretty prompt!
 
