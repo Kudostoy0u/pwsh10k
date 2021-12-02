@@ -38,7 +38,7 @@
                                                 "error_color": "#e91e63",
                                                 "color_background": false,
                                                 "success_icon": "\u2714 ",
-                                                                                                                                    "error_icon": "\u2718 ",
+                                                "error_icon": "\u2718 ",
                                                 "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e"
                                         }
                                 },
