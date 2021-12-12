@@ -45,9 +45,8 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 
 1. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
 
-2. Run `cd pwsh10k`
 
-3. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
+3. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
 
 4. Restart terminal and you should see a pretty prompt!
 
