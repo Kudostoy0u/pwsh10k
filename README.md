@@ -9,6 +9,8 @@ Preview
 ![badge](https://img.shields.io/github/stars/Kudostoy0u/pwsh10k)<space><space>
  
 ## Prerequisites
+ 
+ 1. Windows (works on Unix too, though you'll have to modify the steps accordingly)
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
 
