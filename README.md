@@ -14,7 +14,7 @@ Preview
 
 1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
 
-2. Powershell
+2. Powershell (core 7 reccomended, and required for *nix)
 
 3. Download the MesloLGS NF font:
 Download these four ttf files:
