@@ -1,4 +1,4 @@
-# Pwsh10k - Oh-my-posh theme for my favorite configuration of Powerlevel10k
+# Pwsh10k - A powershell theme based off of Powerlevel10k
 
 
 ![PWSH10k PREVIEW](https://storage.googleapis.com/replit/images/1612640247356_32bc32bef8fece01d93f1565b52abf53.png)<space><space>
