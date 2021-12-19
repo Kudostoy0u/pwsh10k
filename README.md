@@ -8,35 +8,17 @@ Preview
 ![badge](https://img.shields.io/github/forks/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/stars/Kudostoy0u/pwsh10k)<space><space>
  
-## Prerequisites
- 
- 1. Windows (works on Unix too, though you'll have to modify the steps accordingly)
+## Steps
 
-1. Windows Terminal ([How to install](https://docs.microsoft.com/en-us/windows/terminal/get-started "Install Windows Terminal"))
+1. [Configure MesloLGS NF for your terminal](https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
-2. Powershell (core 7 recommended, and required for *nix)
+2. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser`, `Install-Module oh-my-posh -Scope CurrentUser`, and `Update-Module -Name oh-my-posh -AllowPrerelease -Scope CurrentUser`
 
-3. Download the MesloLGS NF font:
-Download these four ttf files:
+3. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
 
-* [MesloLGS NF Regular.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)
+4. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
 
-* [MesloLGS NF Bold.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf)
-
-* [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
-
-* [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
-
-Double-click on each file and press "Install". This will make MesloLGS NF font available to all applications on your system. Configure your Windows Terminal to use this font:
-Open Settings  `(Ctrl+,)`, search for fontFace and set value to MesloLGS NF for every profile.
-
-4. Run `Install-Module posh-git -Scope CurrentUser`, `Install-Module oh-my-posh -Scope CurrentUser`, and `Update-Module -Name oh-my-posh -AllowPrerelease -Scope CurrentUser`
-
-5. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
-
-6. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
-
-7. Add these lines: 
+5. Add these lines: 
 
 ```powershell
 Import-Module posh-git
@@ -47,16 +29,11 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 
 1. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
 
+2. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
 
-3. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
+3. Restart terminal and you should see a pretty prompt!
 
-4. Restart terminal and you should see a pretty prompt!
-
-## Use the correct font for VScode integrated terminal
-
-* Visual Studio Code: Open File → Preferences → Settings, enter terminal.integrated.fontFamily in the search box and set the value to MesloLGS NF
- 
- ## Customize my theme
+## Customize my theme
 
 Fork the project, edit the `pwsh10k.omp.json` file as you see fit, and run the installation instructions, replacing the link in the first step with your own repo.
  
