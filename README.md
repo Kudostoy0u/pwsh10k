@@ -25,13 +25,12 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
-## Installation steps
 
-1. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
+6. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
 
-2. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
+7. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
 
-3. Restart terminal and you should see a pretty prompt!
+8. Restart terminal and you should see a pretty prompt!
 
 ## Customize my theme
 
