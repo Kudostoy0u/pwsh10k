@@ -37,7 +37,7 @@
                                                 "always_enabled": true,
                                                 "error_color": "#e91e63",
                                                 "color_background": false,
-                                                "success_icon": "\u2714 ",
+                                                "success_icon": "\u2713 ",
                                                 "error_icon": "\u2718 ",
                                                 "postfix": "\u003c#ffffff\u003e╱\u003c/\u003e"
                                         }
@@ -123,13 +123,13 @@
                                         "properties": {
                                                 "battery_icon": "",
                                                 "discharging_icon": "\uF578 ",
-                                                "charging_icon": "\uf583 ",
-                                                "charged_icon": "\uf584 ",
+                                                "charging_icon": "\uf0e7 ",
+                                                "charged_icon": "\uf0e7 ",
                                                 "color_background": false,
                                                 "charged_color": "#006400",
                                                 "charging_color": "#00FF00",
                                                 "discharging_color": "#999900",
-                                                "postfix": "\u003c#999900\u003e%\u003c/\u003e\u003c#FFFFFF\u003e ╱\u003c/\u003e",
+                                                "postfix": "\u003c#999900\u003e\u003c/\u003e\u003c#FFFFFF\u003e ╱\u003c/\u003e",
                                                 "display_charging": true
                                         }
                                 },
