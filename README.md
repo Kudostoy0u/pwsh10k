@@ -1,7 +1,7 @@
 # Pwsh10k - A powershell theme based off of Powerlevel10k
 
 
-![PWSH10k PREVIEW](https://user-images.githubusercontent.com/69732000/146661456-69d99dd8-3d9e-4fc6-90ee-dcddf3f18bf7.gif)
+![PWSH10K PREVIEW](https://user-images.githubusercontent.com/69732000/146661494-f046ca6c-824a-4acd-8d04-c97de085f78d.gif)
  
 ![badge](https://img.shields.io/github/issues/Kudostoy0u/pwsh10k)
 ![badge](https://img.shields.io/github/forks/Kudostoy0u/pwsh10k)
