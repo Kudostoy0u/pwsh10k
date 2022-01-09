@@ -22,7 +22,7 @@
                                         "properties": {
                                                 "postfix": "",
                                                 "prefix": "",
-                                                "text": ""
+                                                "text": "​"
                                         }
                                 },
                                 {
@@ -241,7 +241,7 @@
                                         "properties": {
                                                 "postfix": "",
                                                 "prefix": "",
-                                                "text": ""
+                                                "text": "​"
                                         }
                                 }
                         ]
