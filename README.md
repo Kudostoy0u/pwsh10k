@@ -9,15 +9,13 @@
  
 ## Steps
 
-1. [Configure MesloLGS NF for your terminal](https://github.com/romkatv/powerlevel10k#manual-font-installation)
+1. [Install and configure a compatible font](https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
-2. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser`, `Install-Module oh-my-posh -Scope CurrentUser`, and `Update-Module -Name oh-my-posh -AllowPrerelease -Scope CurrentUser`
+2. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
 
-3. Create a powershell profile if you haven't already: `New-Item -ItemType File -Path $PROFILE`
+3. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
 
-4. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
-
-5. Add these lines: 
+4. Add these lines: 
 
 ```powershell
 Import-Module posh-git
@@ -25,12 +23,12 @@ Import-Module oh-my-posh
 Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
 
-6. Run `git clone https://github.com/Kudostoy0u/pwsh10k`
+5. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (assuming `curl` is installed on your system)
 
-7. Run `Copy-Item -Path pwsh10k/pwsh10k.omp.json -Destination $HOME`
+6. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
 
-8. Restart terminal and you should see a pretty prompt!
+7. Restart terminal and you should see a pretty prompt!
 
 ## Customize my theme
 
-Fork the project, edit the `pwsh10k.omp.json` file as you see fit, and run the installation instructions, replacing the link in the first step with your own repo.
+Edit `pwsh10k.omp.json` (Notepad: `notepad ~/pwsh10k.omp.json`, VScode: `code ~/pwsh10k.omp.json`) and change as you see fit ([how to configure a theme?](https://ohmyposh.dev/docs/config-overview))
