@@ -11,7 +11,7 @@
 
 1. [Install and configure a compatible font](https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
-2. Allow all powershell scripts to be run (Note: This will prevent Windows from stopping you from running (potentially harmful) scripts) - `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"`
+2. Allow all powershell scripts to be run (Note: This will prevent Powershell from stopping you from running (potentially harmful) scripts) - `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"`
  
 3. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
 
