@@ -25,8 +25,7 @@ Import-Module oh-my-posh
 Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
 
-6. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (assuming `curl` is installed on your system)
-(Windows users replace `curl` with `curl.exe`)
+6. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (Windows users replace `curl` with `curl.exe`)
  
 7. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
 
