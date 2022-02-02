@@ -11,6 +11,8 @@
 
 1. [Install and configure a compatible font](https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
+2. Allow all powershell scripts to be run (you can change this back by running the same command but replace `Unrestricted` with `Restricted`) - `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"`
+ 
 2. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
 
 3. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
@@ -24,7 +26,8 @@ Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
 
 5. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (assuming `curl` is installed on your system)
-
+(Windows users replace `curl` with `curl.exe`)
+ 
 6. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
 
 7. Restart terminal and you should see a pretty prompt!
