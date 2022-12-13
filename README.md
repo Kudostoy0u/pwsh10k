@@ -24,8 +24,7 @@
  
 ```powershell
 Import-Module posh-git
-oh-my-posh init pwsh | Invoke-Expression
-Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
+oh-my-posh init pwsh --config ~/pwsh10k.omp.json | Invoke-Expression
 ```
  
 1. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (Windows users replace `curl` with `curl.exe`)
