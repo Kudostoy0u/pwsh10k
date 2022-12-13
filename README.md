@@ -13,23 +13,26 @@
 
 2. (Windows users only) Allow all powershell scripts to be run (Note: This will prevent Powershell from stopping you from running (potentially harmful) scripts) - `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"`
  
-3. Install `oh-my-posh` - `Install-Module posh-git -Scope CurrentUser` and `Install-Module oh-my-posh -Scope CurrentUser`
+3. Install `posh-git` - `Install-Module posh-git -Scope CurrentUser`
+ 
+4. Install `oh-my-posh` - `winget install JanDeDobbeleer.OhMyPosh -s winget`.
+(Note: if you've previously installed `oh-my-posh` using the powershell module, [you will need to migrate](https://ohmyposh.dev/docs/migrating))
 
-4. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
+5. Open up the file `$profile` in your text editor of choice (VScode: `code $profile`, Notepad: `notepad $profile`)
 
-5. Add these lines: 
-
+6. Add these lines: 
+ 
 ```powershell
 Import-Module posh-git
-Import-Module oh-my-posh
+oh-my-posh init pwsh | Invoke-Expression
 Set-PoshPrompt -Theme  ~/pwsh10k.omp.json
 ```
-
-6. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (Windows users replace `curl` with `curl.exe`)
  
-7. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
+1. Run `curl https://raw.githubusercontent.com/Kudostoy0u/pwsh10k/master/pwsh10k.omp.json --output pwsh10k.omp.json` (Windows users replace `curl` with `curl.exe`)
+ 
+1. Run `Copy-Item -Path pwsh10k.omp.json -Destination $HOME`
 
-8. Restart terminal and you should see a pretty prompt!
+1. Restart terminal and you should see a pretty prompt!
 
 ## Customize my theme
 
