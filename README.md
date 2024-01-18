@@ -35,4 +35,4 @@ oh-my-posh init pwsh --config ~/pwsh10k.omp.json | Invoke-Expression
 
 ## Customize my theme
 
-Edit `pwsh10k.omp.json` (Notepad: `notepad ~/pwsh10k.omp.json`, VScode: `code ~/pwsh10k.omp.json`) and change as you see fit ([how to configure a theme?](https://ohmyposh.dev/docs/config-overview))
+Edit `pwsh10k.omp.json` (Notepad: `notepad ~/pwsh10k.omp.json`, VScode: `code ~/pwsh10k.omp.json`) and change as you see fit ([how to configure a theme?](https://ohmyposh.dev/docs/configuration/general))
